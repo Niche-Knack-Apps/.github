@@ -47,10 +47,16 @@ OPEN_SOURCE = [
     # slug, name, tile, tagline, description, platforms
     ("z9s", "z9s", "z9s", "A k9s-style terminal UI for Zarf.",
      "Browse, inspect, build, deploy and remove Zarf packages for air-gapped Kubernetes, from one static binary.",
-     "Go · Linux, macOS, Windows"),
+     "Go · Linux, macOS"),
     ("nines", "nines", "9s", "One terminal shell, two languages.",
      "The k9s-shaped shell behind z9s, specified once in a contract and implemented in Go and Rust.",
      "Go · Rust"),
+    ("luddite", "luddite", "lud", "Git history without the AI footprints.",
+     "Removes AI/agent trailers, bot identities and notes while keeping commit order, authorship and timestamps, then verifies it.",
+     "Rust · Linux, macOS"),
+    ("stenographer", "Stenographer", "stn", "Every command, one keystroke away.",
+     "A daemon records every command you run in every terminal; steno searches and replays them instantly.",
+     "Rust · Linux"),
 ]
 
 SECTIONS = [

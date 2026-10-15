@@ -25,8 +25,12 @@ it has to be a pleasure to use. Local files and useful tools come first.
 <a href="https://github.com/Niche-Knack-Apps?q=&type=public"><img src="assets/section-open-source.png" alt="Free and open — Open source" width="100%"></a>
 
 <p align="center">
-<a href="https://github.com/Niche-Knack-Apps/z9s"><img src="assets/oss-z9s.png" alt="z9s — a k9s-style terminal UI for Zarf, the airgap-native package manager for Kubernetes. Go; Linux, macOS, Windows; Apache-2.0." width="49%"></a>
+<a href="https://github.com/Niche-Knack-Apps/z9s"><img src="assets/oss-z9s.png" alt="z9s — a k9s-style terminal UI for Zarf, the airgap-native package manager for Kubernetes. Go; Linux, macOS; Apache-2.0." width="49%"></a>
 <a href="https://github.com/Niche-Knack-Apps/nines"><img src="assets/oss-nines.png" alt="nines — the k9s-shaped terminal shell behind z9s, in Go and Rust. Apache-2.0." width="49%"></a>
+</p>
+<p align="center">
+<a href="https://github.com/Niche-Knack-Apps/luddite"><img src="assets/oss-luddite.png" alt="luddite — removes AI/agent evidence from git history while keeping order, authorship and timestamps. Rust; Linux, macOS; Apache-2.0." width="49%"></a>
+<a href="https://github.com/Niche-Knack-Apps/stenographer"><img src="assets/oss-stenographer.png" alt="Stenographer — shell history search: a daemon records every command and steno replays it. Rust; Linux; Apache-2.0." width="49%"></a>
 </p>
 
 <p align="center"><sub>Public commits are signed with the Niche-Knack key <code>62BE F1F2 9220 6C3D 5B0D 799B 79FB 9434 BEFF BCBC</code>.</sub></p>
