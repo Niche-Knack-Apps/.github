@@ -57,6 +57,12 @@ OPEN_SOURCE = [
     ("stenographer", "Stenographer", "stn", "Every command, one keystroke away.",
      "A daemon records every command you run in every terminal; steno searches and replays them instantly.",
      "Rust · Linux"),
+    ("lamplighter", "Lamplighter", "icon", "Let your light shine, and pass it on.",
+     "A free Bible reading room: thirteen bundled editions, a study desk, church mode for reading together, and a hidden mode for places where faith is persecuted.",
+     "JavaScript · Rust · Linux, Android"),
+    ("lamplighter-formats", "lamplighter-formats", "{ }", "Bring your own translation.",
+     "The plain JSON Lamplighter reads, with a linter, templates and a registry publisher, so new languages are easy to add.",
+     "JSON · Python"),
 ]
 
 SECTIONS = [
@@ -182,7 +188,8 @@ def main() -> None:
         icon = f'<img class="icon" src="icons/{slug}.png" alt="">'
         jobs.append((f"app-{slug}", card(group, icon, name, tagline, desc, plat, f"Explore {name}")))
     for slug, name, tile, tagline, desc, plat in OPEN_SOURCE:
-        icon = f'<div class="tile">{html.escape(tile)}</div>'
+        icon = (f'<img class="icon" src="icons/{slug}.png" alt="">' if tile == "icon"
+                else f'<div class="tile">{html.escape(tile)}</div>')
         jobs.append((f"oss-{slug}", card("Open source", icon, name, tagline, desc, plat, "View on GitHub")))
     for name, label in LINKS:
         jobs.append((name, f'<div class="pad" id="shot" style="padding:4px"><span class="pill"><b></b>{html.escape(label)}</span></div>'))

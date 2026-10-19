@@ -32,6 +32,10 @@ it has to be a pleasure to use. Local files and useful tools come first.
 <a href="https://github.com/Niche-Knack-Apps/luddite"><img src="assets/oss-luddite.png" alt="luddite — removes AI/agent evidence from git history while keeping order, authorship and timestamps. Rust; Linux, macOS; Apache-2.0." width="49%"></a>
 <a href="https://github.com/Niche-Knack-Apps/stenographer"><img src="assets/oss-stenographer.png" alt="Stenographer — shell history search: a daemon records every command and steno replays it. Rust; Linux; Apache-2.0." width="49%"></a>
 </p>
+<p align="center">
+<a href="https://github.com/Niche-Knack-Apps/lamplighter"><img src="assets/oss-lamplighter.png" alt="Lamplighter — Let your light shine, and pass it on. A free Bible reading room with bundled editions, a study desk, church mode and a hidden mode for persecuted readers. Linux, Android; Apache-2.0." width="49%"></a>
+<a href="https://github.com/Niche-Knack-Apps/lamplighter-formats"><img src="assets/oss-lamplighter-formats.png" alt="lamplighter-formats — the plain JSON Lamplighter reads, with a linter, templates and a registry publisher. Apache-2.0." width="49%"></a>
+</p>
 
 <p align="center"><sub>Public commits are signed with the Niche-Knack key <code>62BE F1F2 9220 6C3D 5B0D 799B 79FB 9434 BEFF BCBC</code>.</sub></p>
 
