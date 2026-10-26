@@ -41,6 +41,12 @@ APPS = [
     ("euphonics", "Euphonics", "Find your rhyme. Keep your voice.",
      "Find the right rhyme, try a near rhyme, and give a few words room to grow.",
      "Android", "Media and writing"),
+    ("lamplighter", "Lamplighter", "Let your light shine, and pass it on.",
+     "Read Scripture offline, keep notes close, and share studies. Free downloads and an iPhone web app.",
+     "Free · Desktop, Android, web", "Reading and music"),
+    ("riffwright", "RiffWright", "Hum it. Shape it. Make it a song.",
+     "Hum or tap a Quick riff, shape the notes, and arrange a song. Explore four optional sound packs.",
+     "Android beta by invitation", "Reading and music"),
 ]
 
 OPEN_SOURCE = [
