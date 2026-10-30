@@ -7,7 +7,7 @@ it has to be a pleasure to use. Local files and useful tools come first.
 
 <a href="https://nk.tools/apps"><img src="assets/section-apps.png" alt="nk.tools — The apps" width="100%"></a>
 
-<p align="center">Explore the apps and request beta access at <a href="https://nk.tools">nk.tools</a>. Lamplighter is free to download.</p>
+<p align="center">Explore the apps and request beta access at <a href="https://nk.tools">nk.tools</a>. Lamplighter and Breach are free forever; their pages list current downloads and platform availability.</p>
 
 <p align="center">
 <a href="https://nk.tools/pocket-nerd"><img src="assets/app-pocket-nerd.png" alt="Pocket Nerd — Open. Enter. Done. A scratchpad for money, in your pocket. Android." width="49%"></a>
@@ -24,6 +24,10 @@ it has to be a pleasure to use. Local files and useful tools come first.
 <p align="center">
 <a href="https://nk.tools/lamplighter"><img src="assets/app-lamplighter.png" alt="Lamplighter — Read Scripture offline, keep notes close, and share studies. Free desktop and Android downloads; iPhone web app." width="49%"></a>
 <a href="https://nk.tools/riffwright"><img src="assets/app-riffwright.png" alt="RiffWright — Hum it. Shape it. Make it a song. Quick riff, song arrangement, and four optional sound packs. Android beta by invitation." width="49%"></a>
+</p>
+
+<p align="center">
+<a href="https://nk.tools/breach"><img src="assets/app-breach.png" alt="Breach — The gates of hell will not prevail — Matthew 16:18. Requests, prayer partners, groups, and victories. Free forever; see current availability on nk.tools." width="49%"></a>
 </p>
 
 <a href="https://github.com/Niche-Knack-Apps?q=&type=public"><img src="assets/section-open-source.png" alt="Free and open — Open source" width="100%"></a>

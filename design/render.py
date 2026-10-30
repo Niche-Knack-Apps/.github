@@ -14,6 +14,7 @@ Needs Python Playwright with its Chromium (`pip install playwright && playwright
 from __future__ import annotations
 
 import html
+import sys
 import pathlib
 
 from playwright.sync_api import sync_playwright
@@ -23,6 +24,9 @@ OUT = HERE.parent / "profile" / "assets"
 
 APPS = [
     # slug, name, tagline, description, platforms, group
+    ("breach", "Breach", "The gates of hell will not prevail.",
+     "Bring a need, begin a prayer, and share a victory. Pray with people and groups around the world. Matthew 16:18.",
+     "Free forever · See current availability", "Kingdom Tools"),
     ("pocket-nerd", "Pocket Nerd", "Open. Enter. Done.",
      "A scratchpad for money, in your pocket. Write down what you spent in seconds and see what it does to tomorrow.",
      "Android", "Money"),
@@ -206,6 +210,8 @@ def main() -> None:
         ctx = browser.new_context(device_scale_factor=2, viewport={"width": 1200, "height": 800})
         pg = ctx.new_page()
         for name, body in jobs:
+            if len(sys.argv) > 1 and name not in sys.argv[1:]:
+                continue
             src = HERE / "_render.html"
             src.write_text(page(body))
             pg.goto(src.as_uri())
